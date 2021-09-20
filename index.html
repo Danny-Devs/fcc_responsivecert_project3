@@ -24,27 +24,33 @@
 
     <section id="hero">
       <h1>Music learning software to turn you into a real musician</h1>
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
         <label for="email">Subscribe to our mailing list for learning tips and tricks, in-depth tutorials, and special offers!</label>
         <div id="inputDiv">
-          <input id="email" type="email" placeholder="Enter your email address" required>
+          <input id="email" type="email" name="email" placeholder="Enter your email address" required>
           <input id="submit" type="submit">
         </div>  
       </form>
     </section>
 
     <section id="features">
-      <img class="icon" src="img/artificial-intelligence.png" alt="icon for artificial intelligence">
+      <div class="feat-img-container">
+        <img class="icon" src="img/artificial-intelligence.png" alt="icon for artificial intelligence">
+      </div>
       <div class="feature-desc-container">
         <h2>Enhanced with Machine Learning</h2>
         <p>Musikal utilizes cutting-edge machine learning techniques to make the most of your learning style.</p>
       </div>
-      <img src="img/music-note.png" alt="icon of musical notes" class="icon">
+      <div class="feat-img-container">
+        <img src="img/music-note.png" alt="icon of musical notes" class="icon">
+      </div>
       <div class="feature-desc-container">
         <h2>Designed by Musical Maestros</h2>
         <p>Preeminent musical experts and educators bring their experience and wisdom to Musikal.</p>
       </div>
-      <img src="img/chemistry.png" alt="icon of academic research" class="icon">
+      <div class="feat-img-container">
+        <img src="img/chemistry.png" alt="icon of academic research" class="icon">
+      </div>
       <div class="feature-desc-container">
         <h2>Underpinned by Academic Research</h2>
         <p>Don't just take our word for it&mdash;Musikal's design is based on rigorous, scientific academic research.</p>
@@ -60,7 +66,9 @@
     </section>
 
     <section id="pricing">
-      
+      <h2>Free 30-Day Trial</h2>
+      <p>Or your money back, guaranteed!</p>
+      <button type="button">Yes! I want to be Musikal!</button>
     </section>
 
     <footer>
