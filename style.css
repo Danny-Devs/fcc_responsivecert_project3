@@ -191,12 +191,42 @@ nav ul a:hover {
   height: 100%; 
 }
 
+#pricing {
+  /* background-color: greenyellow; */
+  width: 75vw;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#pricing button{
+  padding: 0.5rem 1rem;
+  background-color: indianred;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 3px solid rgb(182, 65, 65);
+  color: white;
+  font-size: 1rem;
+  filter: drop-shadow(3px 3px 1px #d6d6d6); 
+}
+
+#pricing p {
+  margin-bottom: 8px;
+}
+
+#pricing button:hover {
+  background-color: rgb(226, 111, 111);
+  border-bottom: 3px solid rgb(206, 80, 80);
+}
+
 @media only screen and (min-width: 440px) {
   /* move nav menu under logo, stack em column-wise */
   /* make the YT embedded video responsive (size down to 90% width) */
 
   header {
-     
+     position: sticky;
 
   }
 
