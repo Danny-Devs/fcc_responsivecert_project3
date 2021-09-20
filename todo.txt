@@ -1,0 +1,28 @@
+Stuff to add:
+
+
+give header a bg gradient? or an image...
+  a drop shadow
+
+navbar:
+  -rollover animation for navbar
+  -change visited link color to regular link color
+  -increase font size a bit
+
+make placeholder use Google body font
+
+style the submit button
+
+use css grid for the 3-item Feature Points
+  grab logos from font-awesome? or other free stock svg site
+
+create 3 cards using flexbox for pricing plans
+  style select button similarly to other submit button
+
+footer:
+  add bgcolor (gradient?)
+  
+
+
+
+
